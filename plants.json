@@ -1,0 +1,752 @@
+[
+    {
+        "id": 1,
+        "name": "Snake Plant",
+        "scientific_name": "Sansevieria trifasciata",
+        "description": "Tough, upright leaves that tolerate low light and infrequent watering. Great air purifier.",
+        "price": 18.99,
+        "care": {
+            "light": "Low to bright indirect; tolerates some direct sun",
+            "water": "Every 2-3 weeks; allow soil to dry completely",
+            "soil": "Well-draining cactus or succulent mix",
+            "temperature_and_humidity": "60-85\u00b0F; avoid cold drafts",
+            "tips": "Very forgiving if neglected; wipe leaves occasionally to remove dust",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Spider Plant",
+        "scientific_name": "Chlorophytum comosum",
+        "description": "Arching green-and-white striped leaves; produces baby plantlets. Easy to grow.",
+        "price": 14.5,
+        "care": {
+            "light": "Bright indirect; avoids direct, hot sun",
+            "water": "Weekly; keep soil consistently moist but not soggy",
+            "soil": "Standard fast-draining potting mix",
+            "temperature_and_humidity": "65-80\u00b0F; sensitive to cold",
+            "tips": "Brown tips are usually caused by tap water; use distilled water or rainwater",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Peace Lily",
+        "scientific_name": "Spathiphyllum wallisii",
+        "description": "Glossy leaves and white spathes; thrives in low light and improves air quality.",
+        "price": 22.0,
+        "care": {
+            "light": "Low to medium indirect; blooms best in brighter light",
+            "water": "Weekly; water when leaves begin to droop dramatically",
+            "soil": "Rich, well-draining potting mix",
+            "temperature_and_humidity": "65-80\u00b0F; ensure good humidity",
+            "tips": "Use distilled water to avoid brown leaf edges; sensitive to overwatering",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 4,
+        "name": "ZZ Plant",
+        "scientific_name": "Zamioculcas zamiifolia",
+        "description": "Shiny, dark green leaves; drought-tolerant and nearly indestructible.",
+        "price": 25.99,
+        "care": {
+            "light": "Low to bright indirect; avoid direct sun",
+            "water": "Every 2-3 weeks; allow soil to dry completely between waterings",
+            "soil": "Cactus or succulent mix for excellent drainage",
+            "temperature_and_humidity": "65-75\u00b0F; avoid cold areas",
+            "tips": "The plant stores water in its rhizomes, making it highly forgiving of neglect",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Aloe Vera",
+        "scientific_name": "Aloe barbadensis miller",
+        "description": "Succulent with medicinal gel; needs bright light and minimal watering.",
+        "price": 12.75,
+        "care": {
+            "light": "Bright direct sun; a south-facing window is ideal",
+            "water": "Every 3 weeks; allow soil to fully dry out",
+            "soil": "Cactus or succulent mix",
+            "temperature_and_humidity": "70-85\u00b0F; protect from frost",
+            "tips": "Ensure the pot has drainage holes; use gel from mature leaves for burns",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Rubber Plant",
+        "scientific_name": "Ficus elastica",
+        "description": "Thick, glossy leaves; prefers bright, indirect light and moderate watering.",
+        "price": 28.0,
+        "care": {
+            "light": "Bright indirect; more light encourages deeper color",
+            "water": "Weekly; allow the top few inches of soil to dry out",
+            "soil": "Rich, well-draining potting mix",
+            "temperature_and_humidity": "60-75\u00b0F; keep away from drafts",
+            "tips": "Wipe the large leaves frequently to keep them dust-free and shiny",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Pothos",
+        "scientific_name": "Epipremnum aureum",
+        "description": "Trailing vine with heart-shaped leaves; thrives in low light and easy to propagate.",
+        "price": 10.99,
+        "care": {
+            "light": "Low to bright indirect; lower light reduces variegation",
+            "water": "Weekly; water when the top inch of soil is dry",
+            "soil": "Standard potting mix; needs good drainage",
+            "temperature_and_humidity": "65-80\u00b0F; sensitive to temperatures below 50\u00b0F",
+            "tips": "Prune to encourage fuller growth; easily propagated by placing cuttings in water",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Heartleaf Philodendron",
+        "scientific_name": "Philodendron hederaceum",
+        "description": "Lush, green foliage; adaptable and low-maintenance.",
+        "price": 16.5,
+        "care": {
+            "light": "Medium to bright indirect; avoids direct sun",
+            "water": "Weekly; allow the top half of the soil to dry",
+            "soil": "Chunky, well-aerated aroid mix",
+            "temperature_and_humidity": "65-75\u00b0F; likes humidity",
+            "tips": "Trailing varieties look great in hanging baskets; very tolerant of beginner mistakes",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Monstera Deliciosa",
+        "scientific_name": "Monstera deliciosa",
+        "description": "Large, split leaves (fenestrations); loves bright, indirect light and humidity.",
+        "price": 34.99,
+        "care": {
+            "light": "Bright indirect light is best; avoid intense, direct sun",
+            "water": "Weekly; water when the top 2 inches of soil are dry",
+            "soil": "Chunky, well-draining aroid mix",
+            "temperature_and_humidity": "68-86\u00b0F; high humidity is crucial for best leaf splits",
+            "tips": "Provide a moss pole for support as it climbs; leaves need regular cleaning",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Chinese Evergreen",
+        "scientific_name": "Aglaonema spp.",
+        "description": "Colorful foliage; tolerates low light and is very forgiving.",
+        "price": 19.99,
+        "care": {
+            "light": "Low to medium indirect; bright varieties need more light to maintain color",
+            "water": "Weekly; keep soil evenly moist but not saturated",
+            "soil": "Standard high-quality potting mix",
+            "temperature_and_humidity": "65-75\u00b0F; avoid cold drafts",
+            "tips": "Excellent air purification qualities; wipe leaves to keep them glossy",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Bird\u2019s Nest Fern",
+        "scientific_name": "Asplenium nidus",
+        "description": "Wavy fronds; thrives in humidity and indirect light.",
+        "price": 17.5,
+        "care": {
+            "light": "Medium indirect; avoids any direct sun",
+            "water": "Keep soil moist; water around the outside, not into the 'nest' center",
+            "soil": "Moisture-retaining but well-draining mix",
+            "temperature_and_humidity": "60-75\u00b0F; high humidity is required",
+            "tips": "Mist frequently or place on a pebble tray to increase surrounding humidity",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Boston Fern",
+        "scientific_name": "Nephrolepis exaltata",
+        "description": "Feathery fronds; loves moisture and indirect light.",
+        "price": 15.99,
+        "care": {
+            "light": "Indirect light; morning sun is acceptable",
+            "water": "Keep soil moist at all times; never let it completely dry out",
+            "soil": "Rich, moisture-retentive potting mix",
+            "temperature_and_humidity": "65-75\u00b0F; high humidity prevents frond loss",
+            "tips": "Will drop leaves if air is too dry; regular misting is essential",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Maidenhair Fern",
+        "scientific_name": "Adiantum capillus-veneris",
+        "description": "Delicate, lacy leaves; needs consistent humidity and gentle care.",
+        "price": 18.5,
+        "care": {
+            "light": "Indirect light; prefers lower light than other ferns",
+            "water": "Keep soil moist constantly; drying out is fatal",
+            "soil": "Very moisture-retentive, peat-based mix",
+            "temperature_and_humidity": "65-75\u00b0F; requires high, stable humidity (e.g., in a terrarium)",
+            "tips": "Consider placing it in a bathroom or kitchen for maximum humidity",
+            "care_level": "difficult"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Areca Palm",
+        "scientific_name": "Dypsis lutescens",
+        "description": "Graceful fronds; prefers bright light and regular watering.",
+        "price": 29.99,
+        "care": {
+            "light": "Bright indirect light; avoids direct sun which can scorch fronds",
+            "water": "Weekly; keep soil evenly moist, especially in summer",
+            "soil": "Well-draining, slightly sandy palm mix",
+            "temperature_and_humidity": "65-75\u00b0F; good airflow is beneficial",
+            "tips": "Sensitive to chlorine and fluoride in tap water, which can cause brown tips",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Parlor Palm",
+        "scientific_name": "Chamaedorea elegans",
+        "description": "Compact palm; thrives in low light and adds elegance indoors.",
+        "price": 21.0,
+        "care": {
+            "light": "Low to medium indirect; excellent low-light tolerance",
+            "water": "Weekly; allow the top of the soil to dry slightly",
+            "soil": "Standard well-draining potting mix",
+            "temperature_and_humidity": "65-80\u00b0F; adaptable but dislikes cold drafts",
+            "tips": "A great choice for beginners; repot infrequently as they prefer to be root-bound",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Kentia Palm",
+        "scientific_name": "Howea forsteriana",
+        "description": "Tall, arching fronds; slow-growing and tolerant of low light.",
+        "price": 45.0,
+        "care": {
+            "light": "Medium to bright indirect; highly adaptable, tolerates lower light",
+            "water": "Weekly; allow the top layer of soil to dry before watering",
+            "soil": "Well-draining, slightly acidic potting mix",
+            "temperature_and_humidity": "60-85\u00b0F; one of the hardiest palms",
+            "tips": "Less prone to spider mites than other palms; slow growth makes it low maintenance",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Ponytail Palm",
+        "scientific_name": "Beaucarnea recurvata",
+        "description": "Bulbous base with long, thin leaves; drought-tolerant and quirky.",
+        "price": 24.99,
+        "care": {
+            "light": "Bright indirect; direct sunlight is tolerated well",
+            "water": "Every 2-3 weeks; water deeply, then let soil dry out completely",
+            "soil": "Cactus or succulent mix",
+            "temperature_and_humidity": "65-75\u00b0F; can handle warm, dry conditions",
+            "tips": "The swollen trunk stores water, so infrequent watering is key to its health",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Fiddle Leaf Fig",
+        "scientific_name": "Ficus lyrata",
+        "description": "Large, violin-shaped leaves; loves bright light and consistent care.",
+        "price": 39.99,
+        "care": {
+            "light": "Bright indirect; needs a substantial amount of light to thrive",
+            "water": "Weekly; water thoroughly when the top 2 inches of soil are dry",
+            "soil": "Rich, well-draining potting mix",
+            "temperature_and_humidity": "65-75\u00b0F; sensitive to moving, drafts, and sudden changes",
+            "tips": "Rotate weekly to ensure even growth; dust leaves regularly",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Calathea",
+        "scientific_name": "Calathea orbifolia",
+        "description": "Colorful patterned leaves; folds up at night, loves humidity.",
+        "price": 22.5,
+        "care": {
+            "light": "Medium indirect; avoids direct sun which will bleach the leaves",
+            "water": "Keep soil moist; do not let it dry out completely",
+            "soil": "Light, well-draining, moisture-retentive mix",
+            "temperature_and_humidity": "65-75\u00b0F; requires high humidity to prevent leaf crisping",
+            "tips": "Use distilled water or rainwater to avoid mineral build-up and leaf damage",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 20,
+        "name": " Prayer Plant",
+        "scientific_name": "Maranta leuconeura",
+        "description": "Striking red-veined leaves; thrives in indirect light and moisture.",
+        "price": 18.99,
+        "care": {
+            "light": "Medium indirect; tolerates lower light than Calathea",
+            "water": "Keep soil moist; ensure the topsoil doesn't completely dry out",
+            "soil": "Peat-based, well-draining mix",
+            "temperature_and_humidity": "60-80\u00b0F; high humidity is beneficial",
+            "tips": "Leaves fold up at night, resembling praying hands (hence the nickname)",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 21,
+        "name": "Croton",
+        "scientific_name": "Codiaeum variegatum",
+        "description": "Bright, multicolored leaves; needs lots of light and warmth.",
+        "price": 23.0,
+        "care": {
+            "light": "Bright direct sun for best color; will revert to green in low light",
+            "water": "Weekly; keep soil consistently moist, but reduce slightly in winter",
+            "soil": "Rich, well-draining potting mix",
+            "temperature_and_humidity": "60-85\u00b0F; sensitive to cold drafts and low temps",
+            "tips": "Leaf drop is a common sign of stress (too little light, water, or a move)",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 22,
+        "name": "Dieffenbachia",
+        "scientific_name": "Dieffenbachia seguine",
+        "description": "Large, variegated leaves; prefers filtered light and moderate watering.",
+        "price": 20.5,
+        "care": {
+            "light": "Medium indirect; brighter light encourages more variegation",
+            "water": "Weekly; allow the top third of the soil to dry between waterings",
+            "soil": "Rich, well-draining mix",
+            "temperature_and_humidity": "65-75\u00b0F; keep warm and away from drafts",
+            "tips": "All parts are toxic; handle with care and keep away from pets/children",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 23,
+        "name": "Dragon Tree",
+        "scientific_name": "Dracaena marginata",
+        "description": "Spiky, red-edged leaves; drought-tolerant and stylish.",
+        "price": 19.99,
+        "care": {
+            "light": "Bright indirect; adapts to lower light but can become leggy",
+            "water": "Every 2 weeks; let the top half of the soil dry out",
+            "soil": "Loamy, well-draining potting mix",
+            "temperature_and_humidity": "65-78\u00b0F; sensitive to cold",
+            "tips": "Tolerates some neglect; browning leaf tips are often caused by overwatering or chemicals in tap water",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 24,
+        "name": "Corn Plant",
+        "scientific_name": "Dracaena fragrans",
+        "description": "Tall cane-like stems with green leaves; easy-care and adaptable.",
+        "price": 26.0,
+        "care": {
+            "light": "Medium indirect; tolerates low light conditions well",
+            "water": "Weekly; allow the topsoil to dry before watering again",
+            "soil": "Well-draining, all-purpose potting mix",
+            "temperature_and_humidity": "60-75\u00b0F; highly adaptable to average room temperature",
+            "tips": "Excellent at purifying indoor air; avoid overwatering in winter",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 25,
+        "name": "Umbrella Plant",
+        "scientific_name": "Schefflera actinophylla",
+        "description": "Glossy, umbrella-like leaves; loves bright light and moderate watering.",
+        "price": 24.5,
+        "care": {
+            "light": "Bright indirect; accepts a few hours of direct morning sun",
+            "water": "Weekly; allow soil to dry out between waterings",
+            "soil": "Standard well-draining potting mix",
+            "temperature_and_humidity": "60-75\u00b0F; tolerates drier air better than many plants",
+            "tips": "Can be pruned to maintain size and shape; a quick grower",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 26,
+        "name": "Flamingo Flower",
+        "scientific_name": "Anthurium andraeanum",
+        "description": "Heart-shaped leaves and red spathes; thrives in bright, indirect light.",
+        "price": 27.99,
+        "care": {
+            "light": "Bright indirect; insufficient light will stop blooming",
+            "water": "Weekly; keep soil lightly moist but not soggy",
+            "soil": "Chunky, epiphytic mix (like orchid mix with potting soil)",
+            "temperature_and_humidity": "65-85\u00b0F; high humidity is ideal for blooming",
+            "tips": "The colorful 'flower' is actually a spathe (modified leaf), which lasts for weeks",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 27,
+        "name": "Moth Orchid",
+        "scientific_name": "Phalaenopsis spp.",
+        "description": "Elegant blooms; needs bright light and careful watering.",
+        "price": 29.99,
+        "care": {
+            "light": "Bright indirect; avoids direct, harsh sun",
+            "water": "Every 7-10 days; soak the pot in water for 15 minutes, then drain completely",
+            "soil": "Specialized orchid bark or moss mix (epiphytic)",
+            "temperature_and_humidity": "65-75\u00b0F; a slight temperature drop at night can encourage reblooming",
+            "tips": "Do not overwater; roots need excellent airflow",
+            "care_level": "difficult"
+        }
+    },
+    {
+        "id": 28,
+        "name": "African Violet",
+        "scientific_name": "Saintpaulia ionantha",
+        "description": "Velvety leaves and colorful flowers; loves indirect light and humidity.",
+        "price": 12.99,
+        "care": {
+            "light": "Medium indirect; a northern or eastern window is perfect",
+            "water": "Weekly; water from the bottom (in a saucer) with room-temperature water",
+            "soil": "Light, specialized African Violet mix",
+            "temperature_and_humidity": "65-75\u00b0F; needs consistent temperature",
+            "tips": "Avoid getting water on the leaves, which can cause brown spots; feed regularly for best blooms",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 29,
+        "name": "Begonia",
+        "scientific_name": "Begonia rex-cultorum",
+        "description": "Bold, patterned leaves; prefers bright, indirect light.",
+        "price": 14.99,
+        "care": {
+            "light": "Bright indirect; lower light can dull the colors",
+            "water": "Weekly; allow the topsoil to dry before watering again",
+            "soil": "Light, well-draining potting mix",
+            "temperature_and_humidity": "65-75\u00b0F; requires high humidity",
+            "tips": "Gorgeous foliage plant; sensitive to overwatering which can cause root rot",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 30,
+        "name": "Christmas Cactus",
+        "scientific_name": "Schlumbergera bridgesii",
+        "description": "Segmented stems with seasonal blooms; needs moderate light and water.",
+        "price": 13.5,
+        "care": {
+            "light": "Bright indirect; can tolerate some direct sun in winter",
+            "water": "Weekly; water when the top inch of soil is dry",
+            "soil": "Cactus mix or standard soil amended with perlite",
+            "temperature_and_humidity": "60-75\u00b0F; a cool, dark period (50\u00b0F) in fall encourages winter blooms",
+            "tips": "It's a tropical cactus, not a desert one; do not let it dry out completely",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 31,
+        "name": "Easter Cactus",
+        "scientific_name": "Rhipsalidopsis gaertneri",
+        "description": "Similar to Christmas cactus but blooms in spring; easy-care.",
+        "price": 13.5,
+        "care": {
+            "light": "Bright indirect; eastern window is ideal",
+            "water": "Weekly; keep soil consistently moist during bloom time",
+            "soil": "Cactus mix or standard soil amended with perlite",
+            "temperature_and_humidity": "60-75\u00b0F; similar care to the Christmas Cactus",
+            "tips": "Requires a shorter period of darkness and coolness in late winter to set buds",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 32,
+        "name": "Jade Plant",
+        "scientific_name": "Crassula ovata",
+        "description": "Thick, oval leaves; loves bright light and minimal watering.",
+        "price": 15.99,
+        "care": {
+            "light": "Bright direct sun; needs 4+ hours of sun for compact growth",
+            "water": "Every 2-3 weeks; allow soil to dry completely",
+            "soil": "Cactus or succulent mix",
+            "temperature_and_humidity": "65-75\u00b0F; protect from frost",
+            "tips": "Can grow into a small tree over time; heavy watering causes leaf drop",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 33,
+        "name": "String of Pearls",
+        "scientific_name": "Senecio rowleyanus",
+        "description": "Trailing succulent with bead-like leaves; needs bright light.",
+        "price": 16.99,
+        "care": {
+            "light": "Bright direct sun; appreciates some afternoon shade",
+            "water": "Every 2 weeks; water when the 'pearls' start to look slightly shriveled",
+            "soil": "Very porous, gritty cactus mix",
+            "temperature_and_humidity": "68-75\u00b0F; ensure excellent air circulation",
+            "tips": "The top of the soil needs light to prevent stem rot; avoid splashing water on the leaves",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 34,
+        "name": "String of Hearts",
+        "scientific_name": "Ceropegia woodii",
+        "description": "Delicate vines with heart-shaped leaves; thrives in bright light.",
+        "price": 17.5,
+        "care": {
+            "light": "Bright indirect; can handle some direct morning sun",
+            "water": "Every 2 weeks; let soil dry completely, as it stores water in its rhizomes",
+            "soil": "Cactus/succulent mix; very well-draining",
+            "temperature_and_humidity": "65-75\u00b0F; sensitive to overwatering",
+            "tips": "Leaves will look thin and curled when they need water",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 35,
+        "name": "Hoya",
+        "scientific_name": "Hoya carnosa",
+        "description": "Thick, waxy leaves and fragrant flowers; loves bright light.",
+        "price": 18.99,
+        "care": {
+            "light": "Bright indirect; needs bright light to bloom",
+            "water": "Every 2 weeks; allow soil to dry completely between waterings",
+            "soil": "Chunky, well-draining, epiphytic mix",
+            "temperature_and_humidity": "65-75\u00b0F; enjoys higher humidity",
+            "tips": "Do not remove the bloom spur after flowering\u2014new blooms form on the same spur",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 36,
+        "name": "Kalanchoe",
+        "scientific_name": "Kalanchoe blossfeldiana",
+        "description": "Succulent with colorful blooms; needs bright light and minimal water.",
+        "price": 12.5,
+        "care": {
+            "light": "Bright direct sun; needs intense light to bloom",
+            "water": "Every 2-3 weeks; let soil dry completely",
+            "soil": "Cactus or succulent mix",
+            "temperature_and_humidity": "60-85\u00b0F; requires short daylight hours to set buds (like Christmas Cactus)",
+            "tips": "Pinch off spent flowers to encourage reblooming",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 37,
+        "name": "Peperomia",
+        "scientific_name": "Peperomia obtusifolia (Baby Rubber Plant)",
+        "description": "Compact plant with varied leaf shapes; easy-care and pet-friendly.",
+        "price": 14.99,
+        "care": {
+            "light": "Medium indirect; avoids harsh direct sun",
+            "water": "Weekly; allow the top layer of soil to dry before watering",
+            "soil": "Well-aerated, chunky potting mix",
+            "temperature_and_humidity": "65-75\u00b0F; adaptable to average home humidity",
+            "tips": "Prefers to be slightly root-bound; look for signs of overwatering (drooping/mushy leaves)",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 38,
+        "name": "Fittonia",
+        "scientific_name": "Fittonia albivenis (Nerve Plant)",
+        "description": "Brightly veined leaves; loves humidity and indirect light.",
+        "price": 11.99,
+        "care": {
+            "light": "Low to medium indirect; avoids direct sun",
+            "water": "Keep soil moist; the plant will dramatically collapse (faint) when thirsty",
+            "soil": "Moisture-retaining potting mix",
+            "temperature_and_humidity": "65-75\u00b0F; requires high humidity to prevent leaf edges from crisping",
+            "tips": "Excellent for terrariums where humidity is naturally high",
+            "care_level": "difficult"
+        }
+    },
+    {
+        "id": 39,
+        "name": "Tradescantia",
+        "scientific_name": "Tradescantia zebrina",
+        "description": "Trailing plant with purple-green leaves; fast-growing and hardy.",
+        "price": 13.99,
+        "care": {
+            "light": "Bright indirect; direct sun intensifies purple color but can scorch leaves",
+            "water": "Weekly; keep soil consistently moist, but not soggy",
+            "soil": "Standard well-draining potting mix",
+            "temperature_and_humidity": "60-75\u00b0F; very forgiving",
+            "tips": "Pinch back new growth to encourage bushiness; easily rooted in water",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 40,
+        "name": "Coleus",
+        "scientific_name": "Plectranthus scutellarioides",
+        "description": "Vibrant foliage in many colors; prefers bright light and regular watering.",
+        "price": 10.99,
+        "care": {
+            "light": "Bright indirect; intense light brings out the best color",
+            "water": "Weekly; keep soil consistently moist",
+            "soil": "Rich, well-draining potting mix",
+            "temperature_and_humidity": "65-75\u00b0F; usually grown as an annual, but can be overwintered indoors",
+            "tips": "Pinch off flower spikes to keep the plant focused on foliage growth",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 41,
+        "name": "Bromeliad",
+        "scientific_name": "Guzmania spp.",
+        "description": "Tropical plant with colorful rosettes; thrives in bright light.",
+        "price": 22.99,
+        "care": {
+            "light": "Bright indirect; avoid direct midday sun",
+            "water": "Weekly; keep the central 'cup' or tank filled with water (flush every few weeks)",
+            "soil": "Epiphytic mix or very fast-draining potting mix",
+            "temperature_and_humidity": "65-80\u00b0F; high humidity is beneficial",
+            "tips": "The plant will die after blooming but produces offsets (pups) that can be replanted",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 42,
+        "name": "Air Plants",
+        "scientific_name": "Tillandsia spp.",
+        "description": "No soil needed; absorbs moisture from air, loves bright light.",
+        "price": 9.99,
+        "care": {
+            "light": "Bright indirect; some morning or late afternoon sun is fine",
+            "water": "Mist daily, or soak in room-temperature water for 20-60 minutes once a week",
+            "soil": "None required; mount on driftwood, rock, or place in glass globes",
+            "temperature_and_humidity": "50-90\u00b0F; prefers excellent air circulation",
+            "tips": "Always shake off excess water after soaking to prevent rot",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 43,
+        "name": "Money Tree",
+        "scientific_name": "Pachira aquatica",
+        "description": "Braided trunk with green leaves; symbolizes good luck and wealth.",
+        "price": 25.99,
+        "care": {
+            "light": "Bright indirect; adapts to lower light but may lose lower leaves",
+            "water": "Weekly; water deeply and allow soil to dry out almost completely",
+            "soil": "Well-draining potting mix",
+            "temperature_and_humidity": "65-75\u00b0F; sensitive to cold",
+            "tips": "The braided trunk is permanent; ensure the elastic or tie used for braiding is not restricting growth",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 44,
+        "name": "Cast Iron Plant",
+        "scientific_name": "Aspidistra elatior",
+        "description": "Extremely hardy; tolerates low light and neglect.",
+        "price": 19.99,
+        "care": {
+            "light": "Low to medium; prefers shade and is prone to burning in direct light",
+            "water": "Every 2 weeks; very tolerant of dryness",
+            "soil": "Heavy, moisture-retentive potting soil",
+            "temperature_and_humidity": "50-85\u00b0F; highly durable and temperature tolerant",
+            "tips": "The perfect plant for dark corners or forgetful owners; slow growth means infrequent repotting",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 45,
+        "name": "Oxalis",
+        "scientific_name": "Oxalis triangularis",
+        "description": "Purple clover-like leaves; folds at night, loves bright light.",
+        "price": 12.99,
+        "care": {
+            "light": "Bright indirect; insufficient light causes it to stretch",
+            "water": "Weekly; water when the top layer of soil feels dry",
+            "soil": "Light, well-draining potting mix",
+            "temperature_and_humidity": "60-75\u00b0F; avoids extreme heat",
+            "tips": "Enters dormancy period, during which watering should be stopped until new growth appears",
+            "care_level": "easy"
+        }
+    },
+    {
+        "id": 46,
+        "name": "Alocasia",
+        "scientific_name": "Alocasia amazonica",
+        "description": "Large, dramatic leaves; needs humidity and bright light.",
+        "price": 28.99,
+        "care": {
+            "light": "Bright indirect; direct sun will burn the leaves",
+            "water": "Weekly; keep soil consistently moist, but not soggy",
+            "soil": "Chunky, porous aroid mix that drains quickly",
+            "temperature_and_humidity": "65-80\u00b0F; high humidity is essential, misting or a humidifier is recommended",
+            "tips": "May go dormant in winter if conditions are too dry or cold; do not panic if leaves die back",
+            "care_level": "difficult"
+        }
+    },
+    {
+        "id": 47,
+        "name": "Elephant Ear Colocasia",
+        "scientific_name": "Colocasia esculenta",
+        "description": "Similar to Alocasia but prefers wetter soil; bold foliage.",
+        "price": 29.5,
+        "care": {
+            "light": "Bright indirect to partial direct sun",
+            "water": "Keep soil moist constantly; prefers more water than Alocasia",
+            "soil": "Rich, moisture-retentive potting mix",
+            "temperature_and_humidity": "70-85\u00b0F; a true tropical plant, sensitive to cold",
+            "tips": "Grows from a tuber and is often kept outdoors in summer; feed regularly during the growing season",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 48,
+        "name": "Fishbone Prayer Plant",
+        "scientific_name": "Ctenanthe burle-marxii",
+        "description": "Striped leaves; thrives in humidity and indirect light.",
+        "price": 21.99,
+        "care": {
+            "light": "Medium indirect; avoids direct sun",
+            "water": "Keep soil moist; do not let it dry out completely",
+            "soil": "Moisture-retaining, well-draining mix",
+            "temperature_and_humidity": "65-75\u00b0F; high humidity is required",
+            "tips": "Related to Calathea and Maranta; sensitive to hard tap water",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 49,
+        "name": "Rattlesnake Plant",
+        "scientific_name": "Calathea lancifolia",
+        "description": "Wavy, patterned leaves; loves humidity and indirect light.",
+        "price": 20.99,
+        "care": {
+            "light": "Medium indirect; can tolerate lower light but colors will fade",
+            "water": "Keep soil moist; use distilled water to prevent brown tips",
+            "soil": "Moisture-retaining, well-draining mix",
+            "temperature_and_humidity": "65-75\u00b0F; requires high humidity",
+            "tips": "Leaves move slightly throughout the day and close up at night",
+            "care_level": "medium"
+        }
+    },
+    {
+        "id": 50,
+        "name": "Bird of Paradise",
+        "scientific_name": "Strelitzia reginae",
+        "description": "Large, tropical leaves; needs bright light and space to grow.",
+        "price": 39.99,
+        "care": {
+            "light": "Bright direct sun; needs 4+ hours of sun for best chance of blooming",
+            "water": "Weekly; allow the top 1-2 inches of soil to dry out between waterings",
+            "soil": "Rich, well-draining potting mix",
+            "temperature_and_humidity": "65-80\u00b0F; tolerates drier air but needs stable warmth",
+            "tips": "Leaf tearing is natural as the plant grows to allow light through; fertilize heavily in spring/summer",
+            "care_level": "medium"
+        }
+    }
+]
