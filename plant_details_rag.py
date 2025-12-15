@@ -99,6 +99,6 @@ doc_retriever = create_retriever()
 plant_rag_chain = create_rag_chain(doc_retriever)
 
 
-customer_query = "What plants like a lot of sun?"
-rag_result = plant_rag_chain.invoke(customer_query)
-print(rag_result)
+# customer_query = "What plants like a lot of sun?"
+# rag_result = plant_rag_chain.invoke(customer_query)
+# print(rag_result)
