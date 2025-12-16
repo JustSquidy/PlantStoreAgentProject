@@ -1,17 +1,19 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 import json
 import os 
 
 from langchain_core.documents import Document
 from langchain_chroma import Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
-from langchain_google_vertexai import VertexAIEmbeddings
 from langchain_core.runnables import RunnableLambda
 from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from langchain.tools import tool
 
-GEMENI_KEY = os.getenv("GEMINI_API_KEY") # Gets the gemeni api key from the environment variables
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY") # Gets the gemeni api key from the environment variables
 
 # print(GEMENI_KEY)
 
@@ -37,13 +39,11 @@ def create_retriever():
 
     documents = [Document(page_content=text, id=id) for text, id in zip(texts, ids)]
 
-    gemeni_embeddings = VertexAIEmbeddings(
-    model_name="text-embedding-004"
-    ) # creates a gemeni embedding model 
+    gemini_embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001",google_api_key=GOOGLE_API_KEY) # creates a gemeni embedding model 
 
     vector_store = Chroma.from_documents(
         documents=documents,
-        embedding=gemeni_embeddings,
+        embedding=gemini_embeddings,
         persist_directory='./plant_embeddings'
         ) # creates a vector store from the documents
     

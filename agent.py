@@ -11,8 +11,11 @@ from rich.markdown import Markdown
 from langchain.agents import create_agent
 from langchain.messages import HumanMessage
 from langgraph.checkpoint.memory import InMemorySaver  # Our Imports that will be used during this prohject
+from plant_details_rag import plant_rag
+
 
 from plant_details_rag import plant_rag
+from return_rag import return_rag
 
 import logging
 logging.getLogger("Langchain_google_vertexai.functions_utils").addFilter(
@@ -73,7 +76,7 @@ def search_plants(query: dict) -> list: # Creates new parameters for the LLM to 
 
 agent = create_agent(
     model='gemini-2.5-flash',
-    tools=[get_order_status, search_plants, plant_rag],
+    tools=[get_order_status, search_plants, plant_rag, return_rag],
     system_prompt=""" You are a friendly helpful assistant for a houseplant store.
     if the user asks about other types of plants, or anything that isn't plant related, don't answer
     but remind them what you can do.
